@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ContactListApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+         <item name="colorPrimaryDark">@color/my_light_primary_dark</item>
+    </style>
+
+    <style name="Theme.ContactListApp" parent="Base.Theme.ContactListApp" />
+</resources>
