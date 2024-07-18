@@ -66,7 +66,7 @@ class MainActivity : AppCompatActivity(),NotesItemClicked {
         binding.titlebar.toolbar.setOnMenuItemClickListener {
                     when(it.itemId) {
             R.id.Signoutbtn -> {
-                Toast.makeText(this,"sign out clicked ",Toast.LENGTH_LONG).show()
+//                Toast.makeText(this,"sign out clicked ",Toast.LENGTH_LONG).show()
                 auth.signOut()
                 val pref = getSharedPreferences("SignIn", MODE_PRIVATE)
                 val editor = pref.edit()
